@@ -7,7 +7,7 @@ Automated Python scraper for collecting blockchain chain data from DeFiLlama, in
 - API-based scraping with Selenium fallback
 - Automated scheduling with configurable intervals
 - Proxy support and rotation
-- CSV export with historical data archival
+- JSON, CSV & Excel export with historical data archival
 - Comprehensive logging and error handling
 
 ## Installation
