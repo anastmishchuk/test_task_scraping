@@ -23,6 +23,7 @@ pip install -r requirements.txt
 # Or use package manager:
 brew install chromedriver  # macOS
 choco install chromedriver # Windows
+sudo apt-get install chromium-chromedriver # Linux
 ```
 
 ## Quick Start
