@@ -45,22 +45,7 @@ python main.py
 
 ## Configuration
 
-Edit `config.json` (auto-created on first run):
-
-```json
-{
-    "scrape_interval_minutes": 5,
-    "output_filename": "defillama_chains.csv",
-    "save_historical_data": false,
-    "include_zero_tvl": true,
-    "proxy": {
-        "enabled": false,
-        "host": "proxy.example.com",
-        "port": 8080,
-        "rotate_proxies": false
-    }
-}
-```
+Edit `config.json` (auto-created on first run)
 
 ## Output
 
