@@ -1,0 +1,59 @@
+{
+    "scrape_interval_minutes": 5,
+    "output_filename": "defillama_chains.csv",
+    "log_filename": "defillama_scraper.log",
+    "max_retries": 3,
+    "retry_delay_seconds": 10,
+    "enable_logging": true,
+    "log_level": "INFO",
+    "save_historical_data": false,
+    "historical_data_dir": "historical_data",
+    "proxy": {
+        "enabled": false,
+        "type": "http",
+        "host": "",
+        "port": 8080,
+        "username": "",
+        "password": "",
+        "rotate_proxies": false,
+        "proxy_list": [
+            {
+                "type": "http",
+                "host": "proxy1.example.com",
+                "port": 8080,
+                "username": "",
+                "password": ""
+            },
+            {
+                "type": "http",
+                "host": "proxy2.example.com",
+                "port": 8080,
+                "username": "",
+                "password": ""
+            }
+        ],
+        "rotation_interval": 10
+    },
+    "description": {
+        "scrape_interval_minutes": "How often to scrape data (in minutes)",
+        "output_filename": "Main CSV file to save current data",
+        "log_filename": "Log file for tracking scraper activity",
+        "max_retries": "Number of retry attempts if scraping fails",
+        "retry_delay_seconds": "Seconds to wait between retry attempts",
+        "enable_logging": "Whether to enable logging to file and console",
+        "log_level": "Logging level: DEBUG, INFO, WARNING, ERROR, CRITICAL",
+        "save_historical_data": "Whether to save timestamped historical files",
+        "historical_data_dir": "Directory to store historical data files",
+        "proxy": {
+            "enabled": "Enable/disable proxy usage",
+            "type": "Proxy type: http, https, socks4, socks5",
+            "host": "Proxy server hostname or IP address",
+            "port": "Proxy server port number",
+            "username": "Proxy authentication username (optional)",
+            "password": "Proxy authentication password (optional)",
+            "rotate_proxies": "Enable proxy rotation using proxy_list",
+            "proxy_list": "List of proxies for rotation (when rotate_proxies is true)",
+            "rotation_interval": "Rotate proxy after this many successful scrapes"
+        }
+    }
+}
