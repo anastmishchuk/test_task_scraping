@@ -29,7 +29,7 @@ sudo apt-get install chromium-chromedriver # Linux
 ## Quick Start
 
 ```bash
-python web_scraper.py
+python main.py
 ```
 
 ## Option menu
