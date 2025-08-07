@@ -29,13 +29,19 @@ sudo apt-get install chromium-chromedriver # Linux
 ## Quick Start
 
 ```bash
-python scraper.py
+python web_scraper.py
 ```
 
-Choose option:
-- `1` - Run once
-- `2` - Start scheduler  
-- `3` - Exit
+## Option menu
+
+1. Run scraper once
+2. Start scheduled scraper
+3. Export data (CSV)
+4. Export data (JSON)
+5. Export data (Excel)
+6. Show configuration
+7. Exit
+
 
 ## Configuration
 
